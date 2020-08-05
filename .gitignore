@@ -33,6 +33,7 @@ hs_err_pid*
 
 # production
 /build
+/docker/build
 
 # misc
 .DS_Store
