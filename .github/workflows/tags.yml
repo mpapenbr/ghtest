@@ -41,6 +41,7 @@ jobs:
         with:          
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+          path: docker
           registry: docker.pkg.github.com
           repository: mpapenbr/ghtest/mytest
           tag_with_ref: true
